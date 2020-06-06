@@ -6,7 +6,8 @@
   "author": "pvcresin <pvcresin0730@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "hello": "echo Hello, world!"
+    "hello": "echo Hello, world!",
+    "test": "eslint src"
   },
   "devDependencies": {
     "eslint": "^7.2.0"
