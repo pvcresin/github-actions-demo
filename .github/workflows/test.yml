@@ -3,8 +3,12 @@ name: Test
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'src/a/**/*.{js,jsx,ts,tsx}'
   pull_request:
     branches: [ master ]
+    paths:
+      - 'src/a/**/*.{js,jsx,ts,tsx}'
 
 jobs:
   test:
