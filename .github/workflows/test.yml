@@ -4,11 +4,11 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'src/a/**/*.{js,jsx,ts,tsx}'
+      - 'src/a/**'
   pull_request:
     branches: [ master ]
     paths:
-      - 'src/a/**/*.{js,jsx,ts,tsx}'
+      - 'src/a/**'
 
 jobs:
   test:
