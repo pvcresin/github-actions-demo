@@ -5,10 +5,16 @@ on:
     branches: [ master ]
     paths:
       - 'src/a/**'
+      - '.eslintrc.js'
+      - '**/package.json'
+      - '**/yarn.lock'
   pull_request:
     branches: [ master ]
     paths:
       - 'src/a/**'
+      - '.eslintrc.js'
+      - '**/package.json'
+      - '**/yarn.lock'
 
 jobs:
   test:
